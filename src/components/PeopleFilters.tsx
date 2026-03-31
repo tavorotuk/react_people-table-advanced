@@ -101,9 +101,12 @@ export const PeopleFilters = () => {
       </div>
 
       <div className="panel-block">
-        <a className="button is-link is-outlined is-fullwidth" href="#/people">
+        <Link
+          className="button is-link is-outlined is-fullwidth"
+          to="/people"
+        >
           Reset all filters
-        </a>
+        </Link>
       </div>
     </nav>
   );
